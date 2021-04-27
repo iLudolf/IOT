@@ -20,9 +20,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: ${DB_NAME}   
-      MYSQL_HOST: ${DB_SERVER}  
-    ports: 
-        - 00:33060  
+      MYSQL_HOST: ${DB_SERVER}       
     networks: 
         - network        
   phpmyadmin:
